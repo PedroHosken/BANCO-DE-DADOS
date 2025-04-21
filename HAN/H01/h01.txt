@@ -1,0 +1,49 @@
+Responder as seguintes perguntas:
+
+1.O que é um sistema de banco de dados (SBD)?
+  Um sistema de Banco de Dados é um sistema que armazena um conjunto de dados, sendo esse conjunto de dados organizado,
+  e seus dados poderem serem acessados, alterados e armazenados. - CORRETO: Coleção, estrutura lógica e software de gerenciamento.
+2.Do que um SBD é composto?
+ Um SDB é composto de uma coleção de dados, um sistema lógico de acesso e manipulação de dados e de um software gerenciador.
+3.Como usuários e aplicações interagem com um SBD?
+ A interação com o SBD ocoore por meio do SGBD, a partir de requisições. CORRETO: CONSULTAS
+4.O que é um banco de dados (BD)? Cite um exemplo de um BD, indicando o link onde seja possível encontrá-lo.
+ Um banco de dados é um conjunto de dados, que possui um modelo de dados bem definido. Um exemplo seria, um catálogo de uma loja.
+5.Quais são as propriedades de um BD?
+ Um Banco de dados deve possuir FINALIDADE, COERENCIA, COMPARTILHAMENTO, REALIDADE.
+6.Quais são as etapas de um projeto de BD?
+  1- Especificação: descrição do mini mundo. 2 - Análise de Requisitos: Regras de Negócio. 3 - Modelo Conceitual: MER.
+  4- Modelo Lógico: Foco para SGBD. 5- Modelo Físico: Implementação física.
+7.O que é um sistema gerenciador de banco de dados (SGBD)?
+ Um SGBD é um software que realiza o gerenciamento de acessos ao banco de dados, e mantém sua coerencia do modelo de dados
+ e a integridade dos dados.
+8.Quais são as propriedades de um SGBD?
+ 1. Multiplas visualizações 2. Controle de redundancia 3.Restrição de acesso
+9.Indique situações em que o uso de SGBD pode se mostrar inadequado.
+ Um SGBD é inadequado para aplicações monousuário, baixa complexidade.
+10.O que é um modelo de dados? 
+ Um modelo de dados é o que garante a organização lógica de dados, principalmente o armazenamento, manipulação e organização.
+11.Em relação ao nível de abstração, quais são os tipos de modelos de dados?
+ Modelo Conceitual, Modelo Lógico e Modelo Físico.
+12.O que é um Esquema de BD?
+ Esquema de Banco de Dados é formado por suas entidades, ou tabelas e seus atributos, colunas.
+13.O que é uma Instância de BD?
+ A instância é o conteúdo presente em um banco de dados, naquele determinado momento.
+14.Quais as vantagens de se adotar uma Arquitetura de Três Esquemas para implementar um BD?
+ Uma arquitetura de esquemas permite a indenpendencia de dados, tanto física, quanto lógica, multiplas visualizações,
+ segurança dos dados...
+15.Quais níveis existem em uma Arquitetura de Três Esquemas?
+ Esquema externo - usuario
+ Esquema conceitual - banco de dados por completo
+ Esquema interno - aplicação física
+16.O que é Mapeamento em uma Arquitetura de Três Esquemas?
+ Mapeamento é o caminho entre a requisição feita pelo usuario e a resposta do SGBD. Assim, o dados é transmitido entre
+ os 03 esquemas.
+17.O que é Independência de Dados e qual sua importância para um SBD?
+ A indenpendencia dos dados é quando alteramos o esquema de um nível, sem a necessidade de alterar os demais. Isso é importante
+ para a manuntenção da coesão dos dados, flexibilidade e manuntenção.
+18.O que é uma Linguagem de Consulta?
+ Uma linguagem de consulta é a linguagem que pode realizar requisições ao SGBD e obter respostas.
+19.Cite as linguagens incorporadas na linguagem SQL.
+ DML, DDL, entre outras
+ 
