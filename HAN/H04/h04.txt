@@ -1,0 +1,22 @@
+1.
+
+ A = σ gender = 'F'( actors )
+ π first_name, last_name ( A )
+2. 
+ M = σ year > 1999 ( movies )
+ π name ( M )
+3.
+ M = movies_directors ⨝ movie_id = id ( movies )
+ T = M ⨝ directors.id = director_id ( directors )
+ π movies.name, directors.first_name, directors.last_name(T)
+4.
+ M = σ rank > 6 ( movies )
+ t1 = M ⨝ movie_id = id ( roles )
+ t2 = t1 ⨝ actors.id = t1.actor_id ( actors )
+ π t2.name, t2.first_name, t2.last_name, t2.role ( t2 )
+5.
+ D = movies_directors ⨝ director_id = id ( directors )
+ t1 = D ⨝ movie_id = movies.id ( movies )
+ γ t1.first_name, t1.last_name; count(t1.movie_id) → Total(t1)
+6.
+ 
